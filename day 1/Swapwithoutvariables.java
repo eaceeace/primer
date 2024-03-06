@@ -21,7 +21,3 @@ public class Swapwithoutvariables{
     }
 }
 
-
-        System.out.println("after swapping : "+a+"\t"+b);
-       }
-}

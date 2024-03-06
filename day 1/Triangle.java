@@ -5,6 +5,6 @@ public class Triangle{
         int side1 = Integer.parseInt(args[0]);
         int side2 = Integer.parseInt(args[1]);
         int side3 = Integer.parseInt(args[2]);
-        System.out.println("Perimeter of the triangle: " + (a+b+c));
+        System.out.println("Perimeter of the triangle: " + (side1+side2+side3));
     }
 }
