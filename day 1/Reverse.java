@@ -1,7 +1,7 @@
 /* Write a program to reverse a 3-digit number.  E.g.-Number : 132        Output : 231 Input the number using scanner.*/
 
 import java.util.Scanner;
-public class Reverse {
+public class Reverse{
     public static void main(String[] args) {
         int number, rev = 0, n;
         Scanner scanner = new Scanner(System.in);
