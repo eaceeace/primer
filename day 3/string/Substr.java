@@ -24,11 +24,11 @@ public class Substr {
         String[] words = s.split(" ");
         StringBuilder res = new StringBuilder();
 
-        for (String word : words) {
-            if (check(word)) {
-                res.append("*".repeat(word.length())).append(" ");
+        for (String i : words) {
+            if (check(i)) {
+                res.append("*".repeat(i.length())).append(" ");
             } else {
-                res.append(word).append(" ");
+                res.append(i).append(" ");
             }
         }
 
